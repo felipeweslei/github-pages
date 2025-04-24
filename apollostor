@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Fácil</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; }
+    header { position: relative; text-align: center; }
+    header img.banner { width: 100%; height: auto; }
+    header h1 { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 2em; text-shadow: 0 2px 5px rgba(0,0,0,0.5); }
+    .container { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
+    .product { background-color: white; border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .product img { width: 100%; height: auto; border-radius: 4px; }
+    .product h3 { margin: 10px 0; }
+    .product p { color: #555; }
+    .product button { background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px; }
+    .product button:hover { background-color: #45a049; }
+    #contact { background: #fff; padding: 20px; margin: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    #contact h2 { margin-top: 0; }
+    #contact input, #contact textarea, #contact button { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 4px; }
+    #contact button { background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+    #contact button:hover { background-color: #45a049; }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Banner: atualize src com a URL da imagem gerada -->
+    <img class="banner" src="https://via.placeholder.com/1024x512?text=Banner+Loja+Fácil" alt="Banner Loja Fácil">
+    <h1>Loja Fácil - Produtos que Vendem Rápido</h1>
+  </header>
+
+  <div class="container">
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Fone+Bluetooth" alt="Fone Bluetooth">
+      <h3>Fone Bluetooth</h3>
+      <p>R$ 49,90</p>
+      <button onclick="window.location.href='https://www.mercadopago.com.br/checkout/pagar?pref_id=YOUR_PREF_ID_1'">Comprar por R$ 49,90</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Rel%C3%B3gio+Smart" alt="Relógio Smart">
+      <h3>Relógio Smart</h3>
+      <p>R$ 149,90</p>
+      <button onclick="window.location.href='https://www.mercadopago.com.br/checkout/pagar?pref_id=YOUR_PREF_ID_2'">Comprar por R$ 149,90</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Capinha+Celular" alt="Capinha de Celular">
+      <h3>Capinha de Celular</h3>
+      <p>R$ 24,90</p>
+      <button onclick="window.location.href='https://www.mercadopago.com.br/checkout/pagar?pref_id=YOUR_PREF_ID_3'">Comprar por R$ 24,90</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Garrafa+T%C3%A9rmica" alt="Garrafa Térmica">
+      <h3>Garrafa Térmica</h3>
+      <p>R$ 59,90</p>
+      <button onclick="window.location.href='https://www.mercadopago.com.br/checkout/pagar?pref_id=YOUR_PREF_ID_4'">Comprar por R$ 59,90</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Lumin%C3%A1ria+LED" alt="Luminária LED">
+      <h3>Luminária LED</h3>
+      <p>R$ 44,90</p>
+      <button onclick="window.location.href='https://www.mercadopago.com.br/checkout/pagar?pref_id=YOUR_PREF_ID_5'">Comprar por R$ 44,90</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Organizador+de+Cabos" alt="Organizador de Cabos">
+      <h3>Organizador de Cabos</h3>
+      <p>R$ 29,90</p>
+      <button onclick="window.location.href='https://www.mercadopago.com.br/checkout/pagar?pref_id=YOUR_PREF_ID_6'">Comprar por R$ 29,90</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Suporte+para+Celular" alt="Suporte para Celular">
+      <h3>Suporte para Celular</h3>
+      <p>R$ 34,90</p>
+      <button onclick="window.location.href='https://www.mercadopago.com.br/checkout/pagar?pref_id=YOUR_PREF_ID_7'">Comprar por R$ 34,90</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Power+Bank" alt="Power Bank">
+      <h3>Power Bank</h3>
+      <p>R$ 119,90</p>
+      <button onclick="window.location.href='https://www.mercadopago.com.br/checkout/pagar?pref_id=YOUR_PREF_ID_8'">Comprar por R$ 119,90</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Mini+Ventilador+USB" alt="Mini Ventilador USB">
+      <h3>Mini Ventilador USB</h3>
+      <p>R$ 49,90</p>
+      <button onclick="window.location.href='https://www.mercadopago.com.br/checkout/pagar?pref_id=YOUR_PREF_ID_9'">Comprar por R$ 49,90</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200?text=Chaveiro+Multifun%C3%A7%C3%A3o" alt="Chaveiro Multifunção">
+      <h3>Chaveiro Multifunção</h3>
+      <p>R$ 19,90</p>
+      <button onclick="window.location.href='https://www.mercadopago.com.br/checkout/pagar?pref_id=YOUR_PREF_ID_10'">Comprar por R$ 19,90</button>
+    </div>
+  </div>
+
+  <section id="contact">
+    <h2>Fale Conosco</h2>
+    <form action="https://formsubmit.co/emilijoplim@gmail.com" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu email" required>
+      <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</body>
+</html>
